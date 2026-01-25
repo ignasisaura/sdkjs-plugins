@@ -59,17 +59,31 @@
 						]
 					}
 				]
+			}),
+			
+			fillForms : JSON.stringify({
+				"tags" : {
+					"111" : {
+						"text" : "Text in form with tag 111", 
+						"checkBox" : "true", 
+						"picture" : "https://upload.wikimedia.org/wikipedia/commons/9/91/ONLYOFFICE_logo.png",
+						"comboBox" : "item1"
+						},
+					"222" : {
+						"text" : "Text in form with tag 222", 
+						"checkBox" : "false",
+						"comboBox" : "item2"
+						},
+					"333" : {
+						"text" : "OnlyOffice"
+					}
+				}
 			})
 		};
 		//method for set properties to document
         this.executeMethod("SetProperties", [initSettings], function() {
             window.Asc.plugin.executeCommand("close", "");
         });
-    };
-
-    window.Asc.plugin.button = function(id)
-    {
-		this.executeCommand("close", "");
     };
 
 })(window, undefined);

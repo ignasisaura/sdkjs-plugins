@@ -5,10 +5,8 @@
     "variations" : [
         {
             "description"         : "settings",
-            "url"                 : "index.html",
-            "icons"               : ["icon.png", "icon@2x.png"],
-			"isViewer"            : true,
-            "EditorsSupport"	  : [ "word", "cell", "slide" ],
+            "isViewer"            : true,
+            "EditorsSupport"	  : [ "word", "cell", "slide", "diagram" ],
 			"isSystem"			  : true,
             "isVisual"            : false,
             "isModal"             : false,
