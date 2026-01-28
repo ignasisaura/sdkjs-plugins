@@ -35,7 +35,6 @@ In this folder, you will find the simplest plugins to be used as an examples whi
 ### Other 
 
 * [settings](./settings) shows how to protect a document using a watermark.
-* [chess](./chess) shows how to work with OLE-objects and save data to your document.
 
 ## Documentation
 
