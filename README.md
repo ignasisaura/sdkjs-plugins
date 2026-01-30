@@ -8,7 +8,6 @@ In this folder, you will find the simplest plugins to be used as an examples whi
 
 * [helloworld](./helloworld) shows how to insert text into the document.
 * [templates](./templates) - shows how to insert content generated using DocBuilder script into your doc.
-* [CBR](./cbr) shows how to get data from third party service and insert it into your spreadsheet. 
 * [example_autocomplete](./example_autocomplete) - an example of an input assistant/non-standard keyboard. It has its own window that appears and disappears when you type the text. Its location is tied to the cursor.
 
 ### Search and replace
